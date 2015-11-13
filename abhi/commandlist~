@@ -1,0 +1,14 @@
+cd : Changes Directory
+ls : lists files in the directory
+	-l : gives a long list
+	-t : gives a list sorted by modified time
+	-r : reverses sorting order (ls -tr)
+	-u : gives list sorted by name
+	-a : Also shows hidden files(files that start with .)
+mkdir : makes a directory
+rm : removes a file
+	-r : removes recursively. Mandatory if removing a folder
+	-f : force remove
+history : Lists all the commands you typed. This is user-specific.
+uname : Displays OS information
+	-a : Dispaly all information

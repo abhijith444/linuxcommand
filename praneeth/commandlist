@@ -1,0 +1,24 @@
+cd : changes directory
+ls : lists files in the directory
+        -l : gives a long list
+        -t : gives a list sorted by modifiied time
+        -a : show hidden files also
+        -u : gives list sorted by name
+less    : displays text file
+mkdir : makes directory
+rm : removes file 
+      -r : removes recursively.
+      -f : force remove
+history : lists all commands
+sudo    : executes command as a superuser
+	su - : takes u to the root 
+chown : changes ownership of a file
+       usage :sudo chown owner:group filename 
+chmod   : change file mode
+	usage : sudo chmod 777 filename
+useradd : adds new user to a system
+          usage : useradd -Ggroupname username(creates newuser and adds him t a                                                 group)
+groupadd : adds new group
+usrmod : adds existing user to a group
+        usage : usermod -Ggroupname username
+history  : lists previous commands(starts from most latest)
